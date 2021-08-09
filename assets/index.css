@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body, logo, category, search, Favourite, cart bag */
+body{
+    font-family: 'Mitr', sans-serif;
+    background-color: #F9F7F7;
+    font-weight: 300;
+}
+.main{
+    background-color: #0F233C;
+    padding: 10px 0px;
+}
+.logo{
+    width: 125px;
+    height: auto;
+}
+.alert-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+.category-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    font-weight: 300;
+}
+.category-search-box .form-group input::placeholder{
+    color: #D6D7D9 !important;
+    font-weight: 200;
+}
+
+
+
+/* category */
+.cat-1{
+    background: darkseagreen;
+}
+.cat-2{
+    background-color: #56b5e8;
+}
+.cat-3{
+    background-color: #e06363;
+}
+.cat-4{
+    background-color: #65e67d;
+}
+.cat-5{
+    background-color: #65a6e6;
+}
+.cat-6{
+    background-color: #9b65e6;
+}
+.cat-7{
+    background-color: #3677c7;
+}
+.cat-8{
+    background-color: #5632c2;
+}
+.cat-9{
+    background-color: #8ac433;
+}
+.cat-10{
+    background-color: #2ac5e8;
+}
+.cat-11{
+    background-color: #d13838;
+}
+.cat-12{
+    background-color: #32a852;
+}
+
+/* category end */
+
+
+
+
+/* Helper class */
+.full-width{
+    width:100%;
+}
+.border-radius-0{
+    border-radius: 0px !important;
+}
+.padding-left-right{
+    padding: 0px 10px;
+}
+
+/**********************************************
+*************** Font Helper Start *************
+***********************************************/
+
+/* font size */
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+/* size end */
+
+
+/* font weight */
+.font-weight-100{
+    font-weight: 100;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+/* font weight end*/
+
+/**********************************************
+*************** Font Helper End ***************
+***********************************************/
+
+
+
+
+/**********************************************
+*************** Text Helper Start *************
+***********************************************/
+.text-align-center{
+    text-align: center;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+/**********************************************
+*************** Text Helper End ***************
+***********************************************/
+
+
+
+/* Color helper */
+.bg-prim{
+    background-color: #ea4c89 !important;
+}
+.font-prim{
+    color:#0F233C;
+}
+.font-white{
+    color: #ffffff;
+}
+.font-soft-gray{
+    color: #D6D7D9;
+}
+
+
+.owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 0 !important;
+    background-color: rgba(0, 0, 0, 0);
+}
