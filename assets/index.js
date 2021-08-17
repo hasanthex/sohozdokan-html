@@ -56,4 +56,14 @@ $(document).ready(function(){
     });
   
 
+    $(function(){
+        $('[data-countdown]').each(function(){
+            var $this = $(this);
+            var finalDate = $(this).data('countdown');
+            $this.countdown(finalDate, function(event){
+                $this.html(event.strftime('%D days %H:%M:%S'));
+            });
+        });
+    });
+
 });
